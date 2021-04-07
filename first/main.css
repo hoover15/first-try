@@ -20,58 +20,63 @@ body {
 }
 
 @font face {
-	font-family: Days;
-	src: url('../fonts/Days.ttf') format('truetype');
+  font-family: Days;
+  src: url('../fonts/Days.ttf') format('truetype');
 }
 
 .welcome {
-	display: flex;
-	justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 h1 {
+    margin-bottom: 0;
     color: #3F5CFF;
     font-family: Days;
     font-size: 100px;
 }
 
 h2, p, h3 {
-	color: white;
+  color: white;
 }
 
 h2 {
-	font-family: "Roboto";
+  font-family: "Roboto";
 }
 p, h3 {
-	font-family: Roboto;
+  font-family: Roboto;
 }
 
 .wrap {
-	min-height: 92vh;
+  min-height: 92vh;
 }
 
 main {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	min-height: 92vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 92vh;
 }
 
  footer {
-	display: flex;
-	font-family: Roboto;
-	font-size: 150%;
-	justify-content: center;
+  display: flex;
+  font-family: Roboto;
+  font-size: 150%;
+  justify-content: center;
 }
 
 .ending {
-	position: absolute;
-    bottom: 1;
+  position: absolute;
+  padding: 10px;
+}
+
+a {
+  color: #3F5CFF;
 }
 
 header {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
